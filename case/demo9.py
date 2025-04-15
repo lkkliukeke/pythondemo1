@@ -53,13 +53,13 @@ test = TestDemo('张三','http://www.zhangsan.com')  #张三 的网址为： htt
 #python类的实例化
 class TestDemo:
     #定义两个类变量
-    name = '张三'
-    add = 'http://www.zhangsan.com'
+    name = '蜜雪冰城'
+    add = '2'
     def __init__(self,name,add):
         #定义两个实例变量
         self.name = name
         self.add = add
-        print(name,'的网址为：',add)                #123 的网址为： aaaaaa
+        print(name,'的价格为：',add)                #123 的网址为： aaaaaa
     def say(self,content):
         print(content)
 tests = TestDemo('123','aaaaaa')
@@ -116,4 +116,19 @@ c.info1 = MethodType(info1,c)
 c.info1('666666666')
 
 
+class matched:
+    def say(self):
+        print('使用类名直接调用方法')
+#直接使用类名调用实例方法不带参数会报错
+#matched.say()
+#直接使用类名调用实例方法需把类对象当为参数 方法一：
+# clan = matched()
+# matched.say(clan)
+#可以直接随便传入一个参数  方法二：
+matched.say('ass')
+
+class madetest:
+    def saytest(self):
+        print(self,'测试通过类名直接调用实例方法')
+madetest.saytest('zhangsan')
 

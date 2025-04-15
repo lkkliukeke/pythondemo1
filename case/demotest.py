@@ -121,3 +121,46 @@ def sortcase(lst):
                 lst[j],lst[j + 1] = lst[j + 1],lst[j]
     return lst
 print(sortcase([3, 44, 38, 5, 47, 15, 36, 26, 27, 2]))
+
+
+
+
+class Test:
+    def __init__(self):
+        super().__init__()
+        self.name = '张三'
+        self._bar = 12
+        self.__baz = 35
+t = Test()
+# print(t.name)
+# print(t._bar)
+# print(t.__baz)
+# print(t)
+
+
+
+class Test1:
+    def __init__(self):
+        self.__mangle = 'hello'
+    def get_mangle(self):
+        return self.__mangle
+s = Test1()
+print(s.get_mangle())
+# print(s.__mangle)     #这种执行是错误的
+
+#使用双前导和双下划线
+class Test2:
+    def __init__(self):
+        self.__boos__ = 66
+t = Test2()
+print(t.__boos__)
+
+#_表示占位符
+# for _ in range(10):
+#     print('123')
+
+car = ('red','model',199,3.1415)
+color,_,_,number = car
+print(color)
+print(number)
+print(_)
