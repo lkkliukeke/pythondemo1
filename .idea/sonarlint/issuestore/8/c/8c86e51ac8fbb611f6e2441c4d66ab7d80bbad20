@@ -1,0 +1,5 @@
+
+Lpython:S1144"4Remove this unused class-private '__display' method.(ô„›µ
+6python:S125"Remove this commented out code.(´Åàº
+;python:S125"Remove this commented out code.(ú‡¯äûÿÿÿÿ
+bpython:S100T"KRename method "isWinge" to match the regular expression ^[a-z_][a-z0-9_]*$.(”ö¨ï

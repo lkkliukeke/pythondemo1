@@ -1,0 +1,11 @@
+
+;python:S125"Remove this commented out code.(ƒώσβÿÿÿÿÿ
+mpython:S116"QRename this field "hotelBoss" to match the regular expression ^[_a-z][_a-z0-9]*$.(©Έ³ÿÿÿÿÿ
+hpython:S116"QRename this field "hotelName" to match the regular expression ^[_a-z][_a-z0-9]*$.(«ζχ¬
+mpython:S116"QRename this field "drinkName" to match the regular expression ^[_a-z][_a-z0-9]*$.(ΓΓΏΥύÿÿÿÿ
+npython:S116"RRename this field "drinkPrice" to match the regular expression ^[_a-z][_a-z0-9]*$.(¬ΜΏωÿÿÿÿ
+;python:S125"Remove this commented out code.(ƒώσβÿÿÿÿÿ
+lpython:S117"URename this parameter "drinkName" to match the regular expression ^[_a-z][a-z0-9_]*$.(ρ‚“ό
+mpython:S117"VRename this parameter "drinkPrice" to match the regular expression ^[_a-z][a-z0-9_]*$.(ρ‚“ό
+lpython:S117 "URename this parameter "drinkName" to match the regular expression ^[_a-z][a-z0-9_]*$.(ίΫΚ
+mpython:S117 "VRename this parameter "drinkPrice" to match the regular expression ^[_a-z][a-z0-9_]*$.(ίΫΚ

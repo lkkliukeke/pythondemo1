@@ -1,0 +1,6 @@
+
+_python:S2208"GImport only needed names or import the module and then use its members.(ÔõÕ¨
+qpython:S1186"YAdd a nested comment explaining why this method is empty, or complete the implementation.(åÅ³Ú
+6python:S1257"Remove this commented out code.(ôŒ…•
+qpython:S1186c"YAdd a nested comment explaining why this method is empty, or complete the implementation.(çÑ¯’
+;python:S125e"Remove this commented out code.(ËœÒ«úÿÿÿÿ
